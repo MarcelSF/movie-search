@@ -17,8 +17,9 @@ const fetchResults = (keyword) => {
     });
 }
 
-const myResults = document.querySelector("#results");
+const results = document.querySelector("#results");
 
+const myForm = document.querySelector('#search-movies')
 
 myForm.addEventListener('submit', (event) => {
   event.preventDefault();
