@@ -18,7 +18,6 @@ const fetchResults = (keyword) => {
 }
 
 const results = document.querySelector("#results");
-const masterVariable = "master";
 const myForm = document.querySelector('#search-movies')
 
 myForm.addEventListener('submit', (event) => {
