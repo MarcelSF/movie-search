@@ -19,7 +19,6 @@ const fetchResults = (keyword) => {
 
 const myResults = document.querySelector("#results");
 
-const myForm = document.querySelector('#search-movies')
 
 myForm.addEventListener('submit', (event) => {
   event.preventDefault();
