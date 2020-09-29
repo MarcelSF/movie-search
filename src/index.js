@@ -18,7 +18,7 @@ const fetchResults = (keyword) => {
 }
 
 const results = document.querySelector("#results");
-
+let randomVariable = "";
 const myForm = document.querySelector('#search-movies')
 
 myForm.addEventListener('submit', (event) => {
