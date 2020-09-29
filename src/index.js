@@ -17,7 +17,7 @@ const fetchResults = (keyword) => {
     });
 }
 
-const results = document.querySelector("#results");
+const myResults = document.querySelector("#results");
 
 const myForm = document.querySelector('#search-movies')
 
